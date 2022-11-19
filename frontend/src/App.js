@@ -15,13 +15,12 @@ function App() {
           <Route exact path="/">
             <Home />
           </Route>
-          <Route path="/attendance">
+          <Route path="/capture">
             <UserList />
            
           </Route>
           <Route path="/recent">
            <RecentAttendance/>
-           
           </Route>
         
         </Switch>

@@ -112,7 +112,7 @@ function VideoEle({ addToAttendance, attendance, people, setPeopleCount }) {
         window.faceapi.draw.drawDetections(canvas, resizedDetections);
         window.faceapi.draw.drawFaceLandmarks(canvas, resizedDetections);
         window.faceapi.draw.drawFaceExpressions(canvas, resizedDetections);
-      }, 5000);
+      }, 3000);
     } catch (err) {}
   }
 
